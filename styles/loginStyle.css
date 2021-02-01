@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+    font-family: 'Castoro', serif;
+    background-color:  #B8B4CE;
+}
+
+
+#backBottom{
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.loginElem{
+    margin-top: 1rem;
+}
+
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContainer input{
+    padding: 0.5rem;
+}
+
+#logout{
+    margin-left:1rem;
+}

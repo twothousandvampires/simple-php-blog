@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Castoro', serif;
+    background-color:  #B8B4CE;
+    margin-bottom: 10rem;
+}
+.post{   
+    width: 90%;
+}
+.posts{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header{
+    background-color: 	#3A3553;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#adminLogin{
+    font-size: 20px;   
+    text-decoration: none;
+    cursor: pointer;
+    background-color: wheat;
+    padding: 0.6rem;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.viewPostContainer{
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 2rem;
+}
+
+.comment{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.commentContent{
+    margin: 1rem 0 0 1rem;
+    margin-left: 1rem;
+}
+
+.commentName{
+    margin-top: 1rem;
+}
